@@ -19,8 +19,12 @@ const students = [
   'Steve',
 ];
 for (let i = 0; i < students.length; i++) {
-  // console.log(students[2])
+  // console.log(students[i])
 }
+
+
+
+
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
@@ -28,6 +32,12 @@ const grades = [100, 80, 110, 75, 83, 64];
 for (let i = grades.length; i >= 0; i--) {
   // console.log(grades[i])
 }
+
+
+
+
+
+
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
@@ -38,6 +48,13 @@ for (let i = 0; i < positiveNumbers.length; i++) {
   }
 }
 
+
+
+
+
+
+
+
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
@@ -46,6 +63,11 @@ for (let i = 0; i < mixedSignNumbers.length; i++) {
     // console.log(mixedSignNumbers[i])
   }
 }
+
+
+
+
+
 
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
@@ -58,6 +80,11 @@ for (let i = 0; i < symmetricalCapitals.length; i++) {
 }
 // console.log(symmetricalCapitals)
 // Challenge 6
+
+
+
+
+
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 fibonacciNumbers.unshift(3)
@@ -65,6 +92,12 @@ fibonacciNumbers.push(6)
 fibonacciNumbers.push(6)
 for (let i = 0; i < fibonacciNumbers.length; i++) []
 // console.log(fibonacciNumbers[i])
+
+
+
+
+
+
 
 // Challenge 7
 // Make a NEW array with 5 values of your choice, using the same syntax as the array creation from the previous 6 challenges; that is, every value should be placed within the square brackets.  Now console.log out each value individually.
@@ -171,6 +204,12 @@ newDino = dinosaurs.splice(4, 3);
 for (let i = 0; i < newDino.length; i++) {
   // console.log(newDino[i])
 }
+
+
+
+
+
+
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
 const coolDinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
@@ -178,6 +217,11 @@ lessCoolDinosaurs = coolDinosaurs.join('*')
 for (let i = 0; i < lessCoolDinosaurs.length; i++) {
   // console.log(lessCoolDinosaurs[i])
 }
+
+
+
+
+
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
 const superDinos = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
@@ -185,6 +229,12 @@ const superSuperDinos = superDinos.reverse()
 for (let i = 0; i < superSuperDinos.length; i++) {
 // console.log(superSuperDinos[i])
 }
+
+
+
+
+
+
 // Challenge 15
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
